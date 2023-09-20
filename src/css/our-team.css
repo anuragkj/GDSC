@@ -1,0 +1,199 @@
+@import url('./globalStyles.css');
+
+.team-main-container {
+    padding-top: 80px;
+    display: flex;
+    flex-direction: row;
+    background-color: var(--background);
+    width: 100%;
+}
+
+.left-side {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.left-side .t1 {
+    margin-top: 30px;
+}
+
+
+.right-side {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.team-members-core {
+    box-sizing: border-box;
+    padding: 10px 10%;
+    background-color: var(--background);
+}
+
+.team-members-core-inner {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.core-member-box {
+    /* display: inline-block; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 20px;
+    background-color:transparent;
+    /* width: 20%; */
+    padding: 5px 5px 20px 5px;
+}
+
+.core-member-photo {
+    width: 140px;
+    height: 140px;
+    border-radius: 100px;
+    margin: 10% auto;
+    background-color: var(--lightGrey);
+    overflow: hidden;
+    /* background-color: var(--googleYellow); */
+}
+/* .randomize:first-child {
+    background-color: var(--googleBlue) !important;
+} */
+
+.core-member-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    margin-bottom: 0;
+    
+}
+
+.core-member-box h3 {
+    font-family: var(--smallHeadingFontFamily);
+    font-size: var(--heading5);
+    font-weight: var(--medium);
+    color: var(--tanText);
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+/* .core-member-box p {
+    font-family: var(--smallHeadingFontFamily);
+    font-size: var(--verySmallText);
+    font-weight: var(--regular);
+    color: var(--darkGrey);
+    text-align: center;
+    margin: 0;
+} */
+
+.socials {
+    display: flex;
+    margin-top: 30px;
+    padding: 0 10%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.social {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--darkGrey);
+    transition: 0.3s ease-out;
+    cursor: pointer;
+    margin: 0 8px;
+}
+.social:hover {
+    background-color: var(--lightGrey);
+    transition: 0.3s ease-out;
+}
+.team-title {
+    margin-top: 60px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    margin-bottom: 40px;
+}
+
+.complete-member-box {
+    display: flex;
+    height: 60px;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 20px;
+    background-color:transparent;
+    width: 20%;
+    padding: 5px 5px 20px 5px;
+}
+
+.complete-member-photo-box {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+}
+
+.complete-member-box h3 {
+    font-family: var(--smallHeadingFontFamily);
+    font-size: var(--smallText);
+    font-weight: var(--medium);
+    color: var(--tanText);
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+/* .complete-member-box p {
+    font-family: var(--smallHeadingFontFamily);
+    font-size: var(--verySmallText);
+    font-weight: var(--regular);
+    color: var(--darkGrey);
+    margin: 0;
+} */
+
+@media only screen and (max-width: 600px) {
+    .team-main-container {
+        padding-top: 100px;
+    }
+    .team-title {
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+    /* .team-members-core-inner {
+        flex-direction: column;
+        align-items: center;
+    } */
+    .team-members-core-inner {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .core-member-box {
+        width: 100%;
+        padding: 0;
+        margin: 15px 0;
+    }
+    .complete-member-box {
+        box-sizing: border-box;
+        flex-direction: row;
+        width: 100%;
+        margin: 0;
+        height: 50px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .socials {
+        margin: 10px 0;
+    }
+}
