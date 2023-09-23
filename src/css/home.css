@@ -280,6 +280,25 @@
   width: 75%;
 }
 
+.feature-3 {
+  animation: float 5s ease-in-out infinite;
+  margin-top: 20%;
+  width: 75%;
+}
+
+.feature-4 {
+  animation: float3 5s ease-in-out infinite;
+  margin: auto 0;
+  width: 75%;
+}
+
+.feature-5 {
+  animation: float 5s ease-in-out infinite;
+  margin: auto 0;
+  width: 75%;
+}
+
+
 .feature-item-right {
   width: 52.5%;
   height: 100%;
