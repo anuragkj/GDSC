@@ -194,7 +194,7 @@ const FAQInfo = [
   //     "In a way, but not completely. GDSC is an initiative by Google, however, Google neither promotes nor controls GDSC activities.",
   // },
   {
-    title: "Can I apply if I am from mechanical or electrical department?",
+    title: "Can I apply if I am from from a non Computer Science department?",
     description:
       "Ofcourse! GDSC aims to have a diversified committee which means that students from any department can apply to join!",
   },
