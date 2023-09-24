@@ -1,13 +1,13 @@
 [
   {
-    "name": "GDSC BPDC",
+    "author_name": "GDSC BPDC",
     "blogLink": "https://gdscbpdc.github.io/2022-2023/02_Markdown/",
     "imageURL": "https://www.markdownguide.org/assets/images/markdown-guide-og.jpg",
     "title": "Introduction to Markdown",
     "authorPhoto": "https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2,f_auto,g_center,q_auto:good/v1/gcs/platform-data-dsc/events/small-logo.png"
   },
   {
-    "name": "GDSC BPDC",
+    "author_name": "GDSC BPDC",
     "blogLink": "https://gdscbpdc.github.io/2022-2023/05_Q_Learning/",
     "imageURL": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhTtFXWao9sbX4P__SCJhLChXRdTkVur0sJTnQp5K0MtVR7U0-l3j5Yrpx41U2YSh4N671c-Wn7dJ68xim8cGAiexDI3IOdEV_vHpMsWdsZxSYU3TUpAzNEIVOOOV3O-wxa4caTUT2VwVTTy-R6GlGji1H4lhewb9WC5nmRCzN8Ofe7yF1NW6ArPI7Q/s1600/Tensorflow-septmber-update-social%20%281%29.png",
     "title": "Introduction to Q Learning",

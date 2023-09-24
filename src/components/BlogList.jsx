@@ -163,8 +163,8 @@ class BlogList extends React.Component {
 
                     <div className="blog-list">
                         {
-                            blogs.default.map(({title, imageURL, blogLink, name, authorPhoto=""}, index) => {
-                                return <RenderBlog title={title} description="" mainImage={imageURL} author={name} authorPhoto={authorPhoto} index={index} link={blogLink}/>
+                            blogs.default.map(({title, imageURL, blogLink, author_name, authorPhoto=""}, index) => {
+                                return <RenderBlog title={title} description="" mainImage={imageURL} author={author_name} authorPhoto={authorPhoto} index={index} link={blogLink}/>
                             })
                         }
                     </div>
