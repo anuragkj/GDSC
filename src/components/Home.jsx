@@ -67,22 +67,42 @@ const featuresInfo = [
   {
     color: "#4285F4",
     image: bulb,
-    title: "We ideate",
+    title: "Network 1",
     description:
-      "We brainstorm for new ideas and chalk up a path to implement them successfully",
+      "Network Text 1",
   },
   {
     color: "#FBA416",
     image: team,
-    title: "We communicate",
+    title: "Network 2",
     description:
-      "We help to hone intelligent minds and develop a dynamic environment through dialogue",
+      "Network Text 2",
   },
   {
     color: "#594DD2",
     image: jigsaw,
-    title: "We collaborate",
-    description: "We work together on projects and empower the whole community",
+    title: "Network 3",
+    description: "Network 3",
+  },
+  {
+    color: "#4285F4",
+    image: bulb,
+    title: "Network 4",
+    description:
+      "Network Text 4",
+  },
+  {
+    color: "#FBA416",
+    image: team,
+    title: "Network 5",
+    description:
+      "Network Text 5",
+  },
+  {
+    color: "#594DD2",
+    image: jigsaw,
+    title: "Network 6",
+    description: "Network 6",
   },
 ];
 
@@ -174,7 +194,7 @@ const FAQInfo = [
   //     "In a way, but not completely. GDSC is an initiative by Google, however, Google neither promotes nor controls GDSC activities.",
   // },
   {
-    title: "Can I apply if I am from mechanical or electrical department?",
+    title: "Can I apply if I am from from a non Computer Science department?",
     description:
       "Ofcourse! GDSC aims to have a diversified committee which means that students from any department can apply to join!",
   },
@@ -493,7 +513,7 @@ class Home extends React.Component {
           </Spring>
 
           <p className="h3 darkText ta-center" style={{ marginTop: 100 }}>
-            What GDSC does and how
+            Introducing our networks
           </p>
 
           <div className="features">
