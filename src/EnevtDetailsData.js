@@ -7,7 +7,7 @@ export const events = {
     shortDesc:
       "This session is going to be an introduction to the new GDSC BPDC.",
     postEventDesc: "",
-    url: "info-session",
+    url: "treasure-hunt-session",
     description: (
       <p>
         A scavenger hunt that takes you all around campus! Solve riddles, 
