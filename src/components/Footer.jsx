@@ -27,6 +27,10 @@ const socialMediaInfo = [
     image: youtubeLogo,
     href: "https://www.youtube.com/@gdscbpdc",
   },
+  {
+    image: linkedinLogo,
+    href: "https://www.linkedin.com/company/google-developer-student-club-bits-dubai/",
+  },
 ];
 
 class Footer extends React.Component {
