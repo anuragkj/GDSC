@@ -5,7 +5,7 @@ export const events = {
     date: "5th September 2023",
     dateTime: "2023-09-05 09:00:00",
     shortDesc:
-      "This session is going to be an introduction to the new GDSC BPDC.",
+      "This competition is going to be a treasure hunt challenge.",
     postEventDesc: "",
     url: "treasure-hunt-session",
     description: (
@@ -30,7 +30,7 @@ export const events = {
     description: (
       <p>
         We have observed that a lot of people are curious about GDSC and how it
-        works Shrouded by the mist of dubiety, we are organizing an Informative
+        works shrouded by the mist of dubiety, we are organizing an Informative
         Session on 15th September 8 p.m., that will clear all your doubts
         <br />
         <br />
@@ -47,6 +47,24 @@ export const events = {
       </p>
     ),
     image: "https://a.l3n.co/i/d1J2gM.png",
+    registrationLink: null,
+  },
+  "LUG-session": {
+    name: "Mastering the Fundamentals of Linux & Git ",
+    date: "22nd September 2023",
+    dateTime: "2023-09-22 09:20:00",
+    shortDesc:
+      "This session is going to be an introduction to Git + Linux.",
+    postEventDesc: "",
+    url: "LUG-session",
+    description: (
+      <p>
+        A collaboration between LUG and GDSC which took participants 
+        into the world of Git and how to accesss it using CLI (on a Linux kernel).
+        <br />
+      </p>
+    ),
+    image: "https://b.l3n.co/i/d4bHtK.png",
     registrationLink: null,
   },
 };
