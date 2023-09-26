@@ -67,9 +67,9 @@ const featuresInfo = [
   {
     color: "#4285F4",
     image: bulb,
-    title: "Network 1",
+    title: "Web Dev",
     description:
-      "Network Text 1",
+      "Text for web dev",
   },
   {
     color: "#FBA416",
