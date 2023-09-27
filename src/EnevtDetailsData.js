@@ -67,4 +67,25 @@ export const events = {
     image: "https://b.l3n.co/i/d4bHtK.png",
     registrationLink: null,
   },
+  ,
+  "Streamlit-session": {
+    name: "Dive into Streamlit ",
+    date: "26th September 2023",
+    dateTime: "2023-09-26 11:00:00",
+    shortDesc:
+      "This session is going to be an introduction to creating apps with Streamlit. ",
+    postEventDesc: "",
+    url: "Streamlit-session",
+    description: (
+      <p>
+        Intro to Streamlit 💻
+        Streamlit is an open-source Python library.
+        It's designed for creating web applications with minimal code.
+        Ideal for data scientists, engineers, and anyone who wants to share data and insights in an interactive way.
+        <br />
+      </p>
+    ),
+    image: "https://c.l3n.co/i/dY84MZ.png",
+    registrationLink: null,
+  },
 };
