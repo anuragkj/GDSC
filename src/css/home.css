@@ -264,7 +264,7 @@
 
 .feature-0 {
   animation: float 5s ease-in-out infinite;
-  margin-top: 20%;
+  margin-top: auto 0;
   width: 75%;
 }
 
@@ -288,7 +288,7 @@
 
 .feature-4 {
   animation: float3 5s ease-in-out infinite;
-  margin: auto 0;
+  /* margin: 0; */
   width: 75%;
 }
 
