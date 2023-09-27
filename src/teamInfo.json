@@ -1,5 +1,13 @@
 {
   "core": [
+        {
+      "fullName": "Mohammed Husam",
+      "email": "f20210150@dubai.bits-pilani.ac.in",
+      "linkedinProfile": "https://www.linkedin.com/in/husam-profile/",
+      "githubLink": "https://github.com/HUSAM-07",
+      "imageUrl": "https://c.l3n.co/i/dMu7Eb.png",
+      "role": "GDSC Lead"
+    }, 
     {
       "fullName": "Anurag Kumar Jha",
       "email": "f20200128@dubai.bits-pilani.ac.in ",
@@ -7,23 +15,191 @@
       "githubLink": "https://github.com/anuragkj",
       "imageUrl": "https://b.l3n.co/i/d1QTwD.jpeg",
       "role": "GDSC Mentor"
+    }, 
+    {
+      "fullName": "Ahmed Thahir",
+      "email": "f20200198@dubai.bits-pilani.ac.in",
+      "linkedinProfile": "https://www.linkedin.com/in/ahmedthahir/?originalSubdomain=ae",
+      "githubLink": "https://github.com/AhmedThahir",
+      "imageUrl": "https://a.l3n.co/i/dLN6Xe.jpeg",
+      "role": "GDSC Mentor"
+    }, 
+    {
+      "fullName": "Rahul Vimal Sumbly",
+      "email": "f20210052@dubai.bits-pilani.ac.in",
+      "linkedinProfile": "https://www.linkedin.com/in/rahul-sumbly/",
+      "githubLink": "https://github.com/Rahul-s-007",
+      "imageUrl": "https://c.l3n.co/i/dLuXBD.jpeg",
+      "role": "Co-Lead"
+    }, 
+    {
+      "fullName": "Muneeb Ahmed",
+      "email": "f20210282@dubai.bits-pilani.ac.in",
+      "linkedinProfile": "https://www.linkedin.com/in/mohammed-muneeb-ahmed/",
+      "imageUrl": "https://a.l3n.co/i/dMYdzi.png",
+      "role": "Finance Lead"
+    }, 
+    {
+      "fullName": "Aaryan Sinha",
+      "email": "f20210183@dubai.bits-pilani.ac.in",
+      "linkedinProfile": "https://www.linkedin.com/in/aaryan-sinha-844535274/",
+      "githubLink": "https://github.com/AaryanTheLaughingGas",
+      "imageUrl": "https://b.l3n.co/i/dLLULb.jpeg",
+      "role": "Logistics Lead"
     },
     {
-      "fullName": "Anurag Kumar Jha",
-      "email": "f20200128@dubai.bits-pilani.ac.in ",
-      "linkedinProfile": "https://www.linkedin.com/in/anurag-kumar-jha-680419204/",
-      "githubLink": "https://github.com/anuragkj",
-      "imageUrl": "https://b.l3n.co/i/d1QTwD.jpeg",
-      "role": "GDSC Mentor"
+      "fullName": "Sarah Arshad",
+      "email": "f20200012@dubai.bits-pilani.ac.in",
+      "linkedinProfile": "https://www.linkedin.com/in/sarahaarshad/",
+      "githubLink": "https://github.com/saraharshad",
+      "imageUrl": "https://a.l3n.co/i/dLoQ3v.jpeg",
+      "role": "Marketing Lead"
+    },
+    {
+      "fullName": "Dhruv Neb",
+      "email": "f20200226@dubai.bits-pilani.ac.in",
+      "linkedinProfile": "https://www.linkedin.com/in/dhruv-neb-5b91b8257/",
+      "imageUrl": "https://a.l3n.co/i/dMPZc7.png",
+      "role": "Creative Lead"
+    },
+    {
+      "fullName": "Mohammed Aman",
+      "email": "f20200050@dubai.bits-pilani.ac.in",
+      "linkedinProfile": "https://www.linkedin.com/in/mohammed-aman-7328b7186/",
+      "githubLink": "https://github.com/amxn167",
+      "imageUrl": "https://b.l3n.co/i/dMYntF.png",
+      "role": "Technology Manager"
+    },
+    {
+      "fullName": "Krish Motiani",
+      "email": "f20200054@dubai.bits-pilani.ac.in",
+      "linkedinProfile": "https://www.linkedin.com/in/krish-motiani-a10b21209/",
+      "githubLink": "https://github.com/Morpheus054",
+      "imageUrl": "https://a.l3n.co/i/dLuqfH.jpeg",
+      "role": "Technology Manager"
+    },
+    {
+      "fullName": "Riddhi Goswami",
+      "email": "f20210017@dubai.bits-pilani.ac.in",
+      "linkedinProfile": "https://www.linkedin.com/in/riddhi-goswami-90052223b/",
+      "githubLink": "https://github.com/Secret-Ambush",
+      "imageUrl": "https://b.l3n.co/i/dLFQ4r.png",
+      "role": "Systems Admin & Tech Executive "
+    },
+    {
+      "fullName": "Sivaa Balamurugan",
+      "email": "f20220323@dubai.bits-pilani.ac.in ",
+      "linkedinProfile": "https://www.linkedin.com/in/sivaab",
+      "githubLink": "https://github.com/sivaab",
+      "imageUrl": "https://b.l3n.co/i/dSyFyA.jpeg",
+      "role": "SnP & Tech Executive"
     }
   ],
+
+
   "complete": [
     {
-      "fullName": "Anurag Kumar Jha",
-      "email": "f20200128@dubai.bits-pilani.ac.in ",
-      "linkedinProfile": "https://www.linkedin.com/in/anurag-kumar-jha-680419204/",
-      "imageUrl": "https://b.l3n.co/i/d1QTwD.jpeg",
-      "role": "GDSC Mentor"
+      "fullName": "Shivaani Srinivasan",
+      "email": "f20220197@dubai.bits-pilani.ac.in",
+      "linkedinProfile": "https://www.linkedin.com/in/shivaani-srinivasan-aa044a22b/",
+      "imageUrl": "https://c.l3n.co/i/dLNZN0.jpeg",
+      "role": "Technology Executive"
+    }, 
+    {
+      "fullName": "Vennela Vallabhaneni",
+      "email": "f20220233@dubai.bits-pilani.ac.in",
+      "linkedinProfile": "https://www.linkedin.com/in/vennela-vallabhaneni-959a6520a/",
+      "githubLink": "https://github.com/vennby",
+      "imageUrl": "https://b.l3n.co/i/dMMzgH.jpeg",
+      "role": "Technology Executive"
+    }, 
+    {
+      "fullName": "Aadish Jain",
+      "email": "f20210905@dubai.bits-pilani.ac.in",
+      "linkedinProfile": "https://www.linkedin.com/in/theaadish/",
+      "githubLink": "https://github.com/theaadish",
+      "imageUrl": "https://b.l3n.co/i/dLL1v7.jpeg",
+      "role": "Technology Executive"
+    },
+    {
+      "fullName": "Vansh Gupta",
+      "email": "f20210067@dubai.bits-pilani.ac.in",
+      "linkedinProfile": "https://www.linkedin.com/in/vansh-gupta-1557ab1ba/",
+      "githubLink": "https://github.com/vansh18",
+      "imageUrl": "https://c.l3n.co/i/dLNMlb.jpeg",
+      "role": "Technology Executive"
+    },
+    {
+      "fullName": "Alan Mohan",
+      "email": "f20210224@dubai.bits-pilani.ac.in",
+      "linkedinProfile": "https://www.linkedin.com/in/alan-mohan8/",
+      "githubLink": "https://github.com/alanmohan",
+      "imageUrl": "https://b.l3n.co/i/dMLvyr.png",
+      "role": "Technology Executive"
+    },
+    {
+      "fullName": "Nishit Batwal",
+      "email": "f20220046@dubai.bits-pilani.ac.in",
+      "linkedinProfile": "https://www.linkedin.com/in/nishit-batwal-805185252/",
+      "githubLink": "https://github.com/haberdasher30",
+      "imageUrl": "https://c.l3n.co/i/dMLk1x.png",
+      "role": "Technology & Logistics Executive"
+    },
+    {
+      "fullName": "Drisya Manikkath",
+      "email": "f20220254@dubai.bits-pilani.ac.in",
+      "linkedinProfile": "https://www.linkedin.com/in/drisya-manikkath-0378a9194/",
+      "imageUrl": "https://c.l3n.co/i/dMoloc.png",
+      "role": "Logistics Executive"
+    },
+    {
+      "fullName": "Sania Banka",
+      "email": "f20210907@dubai.bits-pilani.ac.in",
+      "linkedinProfile": "https://www.linkedin.com/in/sania-banka/",
+      "imageUrl": "https://b.l3n.co/i/dLoEki.png",
+      "role": "Logistics Executive"
+    },
+    {
+      "fullName": "Jasminder Singh Ahluwalia",
+      "email": "f20210193@dubai.bits-pilani.ac.in",
+      "imageUrl": "https://b.l3n.co/i/dLourx.jpeg",
+      "role": "Logistics Executive"
+    },
+    {
+      "fullName": "Mufti Muqaram",
+      "email": "f20220235@dubai.bits-pilani.ac.in",
+      "githubLink": "https://github.com/Muqaram0",
+      "imageUrl": "https://b.l3n.co/i/dMM657.png",
+      "role": "Creative Executive"
+    },
+    {
+      "fullName": "Mohammed Omer",
+      "email": "f20220155@dubai.bits-pilani.ac.in",
+      "linkedinProfile": "https://www.linkedin.com/in/omer-ali-a5a0ba237/",
+      "githubLink": "https://github.com/OmerAli77",
+      "imageUrl": "https://a.l3n.co/i/dLuDx7.jpeg",
+      "role": "Creative Executive"
+    },
+    {
+      "fullName": "Tushar Raja",
+      "email": "f20210259@dubai.bits-pilani.ac.in",
+      "linkedinProfile": "https://www.linkedin.com/in/tushar-raja-ab5a32221/",
+      "githubLink": "https://github.com/vmuch-t",
+      "imageUrl": "https://c.l3n.co/i/dLN7ro.jpeg",
+      "role": "Creative Executive"
+    },
+    {
+      "fullName": "Kaveri Utpal Pathak",
+      "email": "f20220094@dubai.bits-pilani.ac.in",
+      "linkedinProfile": "https://www.linkedin.com/in/kaveri-pathak-51b750243/",
+      "imageUrl": "https://a.l3n.co/i/dLowzi.jpeg",
+      "role": "Finance Executive"
+    },
+    {
+      "fullName": "Asfiya Tehmeen",
+      "email": "f20220244@dubai.bits-pilani.ac.in",
+      "imageUrl": "https://a.l3n.co/i/dLYHQP.png",
+      "role": "Marketing Executive"
     }
   ]
 }
