@@ -698,7 +698,7 @@ class Home extends React.Component {
 
         
         <div className="reviews-container">
-          <p className="h2 tanText ta-center">Hear it from our team</p>
+          <p className="h2 tanText ta-center">Hear it from our members!</p>
 
           <img src={r1} className="review r1" />
           <img src={r2} className="review r2" />
