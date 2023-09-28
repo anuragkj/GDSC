@@ -17,7 +17,7 @@ import GDSCGif from '../assets/gdsc-logo.gif'
 
 import '../css/globalStyles.css'
 
-const fs = require('fs')
+// const fs = require('fs')
 
 
 class App extends React.Component {
