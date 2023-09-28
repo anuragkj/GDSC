@@ -45,6 +45,10 @@ import r1 from "../assets/images/r1.svg";
 import r2 from "../assets/images/r2.svg";
 import r3 from "../assets/images/r3.svg";
 import r4 from "../assets/images/r4.svg";
+import rev1 from "../assets/images/rev1.svg";
+import rev2 from "../assets/images/rev2.svg";
+import rev3 from "../assets/images/rev3.svg";
+import rev4 from "../assets/images/rev4.svg";
 import jig from "../assets/images/jig.svg";
 import jigmobile from "../assets/images/jigmobile.svg";
 import dscjig from "../assets/images/dsc_jig.svg";
@@ -712,10 +716,10 @@ class Home extends React.Component {
         <div className="reviews-container">
           <p className="h2 tanText ta-center">Hear it from our members!</p>
 
-          <img src={r1} className="review r1" />
-          <img src={r2} className="review r2" />
-          <img src={r3} className="review r3" />
-          <img src={r4} className="review r4" />
+          <img src={rev1} className="review r1" />
+          <img src={rev2} className="review r2" />
+          <img src={rev3} className="review r3" />
+          <img src={rev4} className="review r4" />
         </div>
 
         <p className="h2 tanText ta-center" style={{ marginTop: 160 }}>
