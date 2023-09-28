@@ -21,11 +21,9 @@ import "../css/home.css";
 import homeMainImage from "../assets/images/homepage_main.jpg";
 import DSCLogo from "../assets/images/DSCBPDCOnlyLogo.svg";
 import GDSCLogoText from "../assets/images/GDSCLogoText.png";
-import bulb from "../assets/images/Ideate.svg"; //rm
-import team from "../assets/images/Communicate2.svg"; //rm
-import jigsaw from "../assets/images/Collaborate.svg"; //rm
 import cc from "../assets/images/CC.svg";
 import ai from "../assets/images/AI & Data.svg";
+import app2 from "../assets/images/App & Web.png";
 import app from "../assets/images/App & Web.svg";
 import bio from "../assets/images/Bio.svg";
 import cloud from "../assets/images/Cloud & cyber.svg";
@@ -81,7 +79,7 @@ const featuresInfo = [
   {
     // color: "#FBA416",
     color: "#FFFFFF",
-    image: app,
+    image: app2,
     title: "Web & App Development",
     description:
       "Discover the art of web and app development with various workshops and hands-on activites. Increase your chances of success in hackathons and competitions by learning how to build user-friendly applications and prototypes.",
@@ -211,6 +209,26 @@ const FAQInfo = [
       "Ofcourse! GDSC aims to have a diversified committee which means that students from any department can apply to join!",
   },
 ];
+
+const buttonStyle = {
+  background: 'linear-gradient(to right, #F4B400 0%, #F4B400 25%, #DB4437 25%, #DB4437 50%, #0F9D58 50%, #0F9D58 75%, #4285F4 75%, #4285F4 100%)',
+  backgroundSize: '400% 100%',
+  backgroundPosition: 'right bottom',
+  transition: 'background-position 1s ease-out, color 1s ease-out',
+  color: '#fff',
+  padding: '10px 20px',
+  border: 'none',
+  borderRadius: '5px',
+  fontSize: '16px',
+  cursor: 'pointer',
+  textDecoration: 'none',
+  display: 'inline-block',
+};
+
+const buttonHoverStyle = {
+  backgroundPosition: 'left bottom',
+  color: '#000',
+}
 
 const RenderOpportunity = ({ icon, description, index }) => {
   return (
@@ -492,6 +510,18 @@ class Home extends React.Component {
                 />
               );
             })}
+          </div>
+          
+          <div>
+            <style
+              dangerouslySetInnerHTML={{
+                __html:
+                  ".button {background: linear-gradient(to right, #F4B400 0%, #F4B400 25%, #DB4437 25%, #DB4437 50%, #0F9D58 50%, #0F9D58 75%, #4285F4 75%, #4285F4 100%);\n      background-size: 400% 100%;\n      background-position: right bottom;\n      transition: background-position 1s ease-out, color 1s ease-out;\n      color: #fff;\n      padding: 10px 20px;\n      border: none;\n      border-radius: 5px;\n      font-size: 16px;\n      cursor: pointer;\n      text-decoration: none;\n      display: inline-block;\n    }\n\n    .button:hover {\n      background-position: left bottom;\n      color: #000;\n    }\n\n  "
+              }}
+            />
+            <a href="https://forms.gle/QnpzKUsdWmJ8Cuxf7" target="_blank" className="button">
+              Join Now!
+            </a>
           </div>
 
           <Spring>
