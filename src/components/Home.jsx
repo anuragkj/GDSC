@@ -21,9 +21,15 @@ import "../css/home.css";
 import homeMainImage from "../assets/images/homepage_main.jpg";
 import DSCLogo from "../assets/images/DSCBPDCOnlyLogo.svg";
 import GDSCLogoText from "../assets/images/GDSCLogoText.png";
-import bulb from "../assets/images/Ideate.svg";
-import team from "../assets/images/Communicate2.svg";
-import jigsaw from "../assets/images/Collaborate.svg";
+import bulb from "../assets/images/Ideate.svg"; //rm
+import team from "../assets/images/Communicate2.svg"; //rm
+import jigsaw from "../assets/images/Collaborate.svg"; //rm
+import cc from "../assets/images/CC.svg";
+import ai from "../assets/images/AI & Data.svg";
+import app from "../assets/images/App & Web.svg";
+import bio from "../assets/images/Bio.svg";
+import cloud from "../assets/images/Cloud & cyber.svg";
+import robot from "../assets/images/Robotics.svg";
 import codebuddy from "../assets/images/CodeBuddy.svg";
 import ama from "../assets/images/AMA.svg";
 import verboselog from "../assets/images/VerboseLog.svg";
@@ -65,44 +71,50 @@ const opportunitiesInfo = [
 
 const featuresInfo = [
   {
-    color: "#4285F4",
-    image: bulb,
-    title: "Web Dev",
+    // color: "#4285F4",
+    color: "#FFFFFF",
+    image: ai,
+    title: "AI & Data",
     description:
-      "Text for web dev",
+      "Dive into the world of AI and data science. Learn about the latest AI and ML technologies and how to apply them to solve real world problems. ",
   },
   {
-    color: "#FBA416",
-    image: team,
-    title: "Network 2",
+    // color: "#FBA416",
+    color: "#FFFFFF",
+    image: app,
+    title: "Web & App Development",
     description:
-      "Network Text 2",
+      "Discover the art of web and app development with various workshops and hands-on activites. Increase your chances of success in hackathons and competitions by learning how to build user-friendly applications and prototypes.",
   },
   {
-    color: "#594DD2",
-    image: jigsaw,
-    title: "Network 3",
-    description: "Network 3",
+    // color: "#594DD2",
+    color: "#FFFFFF",
+    image: bio,
+    title: "Bioinformatics",
+    description: "Merging biology and technology, we introduce the Bioinformatics network. Explore the power of computational tools and analysis of biological data.",
   },
   {
-    color: "#4285F4",
-    image: bulb,
-    title: "Network 4",
+    // color: "#4285F4",
+    color: "#FFFFFF",
+    image: cloud,
+    title: "Cloud Computing & Cybersecurity",
     description:
-      "Network Text 4",
+      "Secure the digital world with our Cloud & Cybersecurity network. Delve into the field of cloud computing, network security, and ethical hacking with engaging workshops and events",
   },
   {
-    color: "#FBA416",
-    image: team,
-    title: "Network 5",
+    // color: "#FBA416",
+    color: "#FFFFFF",
+    image: robot,
+    title: "IoT & Robotics",
     description:
-      "Network Text 5",
+      "Embark on a journey into the world of Robotics and IoT with GDSC. Learn about designing and automating robots and indulge into the world of IoT.",
   },
   {
-    color: "#594DD2",
-    image: jigsaw,
-    title: "Network 6",
-    description: "Network 6",
+    // color: "#594DD2",
+    color: "#FFFFFF",
+    image: cc,
+    title: "Competitive Coding",
+    description: "Sharpen your coding skills and tech knowledge with our brainstorming competitions. From competitive coding to CTF, this network offers interesting events for everyone!",
   },
 ];
 
@@ -698,7 +710,7 @@ class Home extends React.Component {
 
         
         <div className="reviews-container">
-          <p className="h2 tanText ta-center">Hear it from our team</p>
+          <p className="h2 tanText ta-center">Hear it from our members!</p>
 
           <img src={r1} className="review r1" />
           <img src={r2} className="review r2" />

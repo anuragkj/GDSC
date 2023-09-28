@@ -190,6 +190,12 @@ class OurTeam extends React.Component {
           <div className="team-members-core-inner">
             {this.renderCoreTeam(4, 8)}
           </div>
+          <div className="team-members-core-inner">
+            {this.renderCoreTeam(8, 12)}
+          </div>
+          <div className="team-members-core-inner">
+            {this.renderCoreTeam(12, 13)}
+          </div>
           <p className="team-title h5 tanText ta-center">Complete Team</p>
           <BrowserView>
             <div className="team-members-core-inner">
