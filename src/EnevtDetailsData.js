@@ -67,7 +67,7 @@ export const events = {
     image: "https://b.l3n.co/i/d4bHtK.png",
     registrationLink: null,
   },
-  ,
+  
   "Streamlit-session": {
     name: "Dive into Streamlit ",
     date: "26th September 2023",
