@@ -47,10 +47,17 @@ import rev1 from "../assets/images/rev1.svg";
 import rev2 from "../assets/images/rev2.svg";
 import rev3 from "../assets/images/rev3.svg";
 import rev4 from "../assets/images/rev4.svg";
+import cyber from "../assets/images/cloudLogo.svg";
+import data from "../assets/images/aiLogo.svg";
+import ctf from "../assets/images/ctfLogo.svg";
+import bioinfo from "../assets/images/bioLogo.svg";
+import robo  from "../assets/images/roboLogo.svg";
+import web from "../assets/images/webLogo.svg";
 import jig from "../assets/images/jig.svg";
 import jigmobile from "../assets/images/jigmobile.svg";
 import dscjig from "../assets/images/dsc_jig.svg";
 import { Spring } from "../helpers";
+import { red } from "@material-ui/core/colors";
 
 const opportunitiesInfo = [
   {
@@ -73,48 +80,48 @@ const opportunitiesInfo = [
 
 const featuresInfo = [
   {
-    // color: "#4285F4",
-    color: "#FFFFFF",
-    image: ai,
+    color: "#4486F4",
+    indColor: "#7BADE8",
+    image: data,
     title: "AI & Data",
     description:
       "Dive into the world of AI and data science. Learn about the latest AI and ML technologies and how to apply them to solve real world problems. ",
   },
   {
-    // color: "#FBA416",
-    color: "#FFFFFF",
-    image: app2,
+    color: "#DA483B",
+    indColor: "#E37272",
+    image: web,
     title: "Web & App Development",
     description:
       "Discover the art of web and app development with various workshops and hands-on activites. Increase your chances of success in hackathons and competitions by learning how to build user-friendly applications and prototypes.",
   },
   {
-    // color: "#594DD2",
-    color: "#FFFFFF",
-    image: bio,
+    color: "#FFCE34",
+    indColor: "#FFF09E",
+    image: bioinfo,
     title: "Bioinformatics",
     description: "Merging biology and technology, we introduce the Bioinformatics network. Explore the power of computational tools and analysis of biological data.",
   },
   {
-    // color: "#4285F4",
-    color: "#FFFFFF",
-    image: cloud,
+    color: "#3CAB3A",
+    indColor: "#B0E0A8",
+    image: cyber,
     title: "Cloud Computing & Cybersecurity",
     description:
       "Secure the digital world with our Cloud & Cybersecurity network. Delve into the field of cloud computing, network security, and ethical hacking with engaging workshops and events",
   },
   {
-    // color: "#FBA416",
-    color: "#FFFFFF",
-    image: robot,
+    color: "#4486F4",
+    indColor: "#7BADE8",
+    image: robo,
     title: "IoT & Robotics",
     description:
       "Embark on a journey into the world of Robotics and IoT with GDSC. Learn about designing and automating robots and indulge into the world of IoT.",
   },
   {
-    // color: "#594DD2",
-    color: "#FFFFFF",
-    image: cc,
+    color: "#DA483B",
+    indColor: "#E37272",
+    image: ctf,
     title: "Competitive Coding",
     description: "Sharpen your coding skills and tech knowledge with our brainstorming competitions. From competitive coding to CTF, this network offers interesting events for everyone!",
   },
@@ -223,16 +230,16 @@ const RenderOpportunity = ({ icon, description, index }) => {
   );
 };
 
-const RenderFeature = ({ color, image, title, description, index }) => {
+const RenderFeature = ({ color, indColor, image, title, description, index }) => {
   return (
     <div className="feature-item" key={index}>
       <div className="feature-item-left" style={{ backgroundColor: color }}>
-        <img src={image} className={`feature-${index}`} />
+        <p className="h0" style={{color: indColor}}>0{index + 1}</p>
+        <p className="h2 tanText">{title}</p>
+        <p className="t2" style={{fontSize:'18.5px'}}>{description}</p>
       </div>
       <div className="feature-item-right">
-        <p className="h0 lightGrey">0{index + 1}</p>
-        <p className="h2 tanText">{title}</p>
-        <p className="t2 darkGrey">{description}</p>
+        <img src={image} className={`feature-${index}`} />
       </div>
     </div>
   );
@@ -547,6 +554,7 @@ class Home extends React.Component {
               return (
                 <RenderFeature
                   color={item.color}
+                  indColor={item.indColor}
                   description={item.description}
                   index={index}
                   title={item.title}
