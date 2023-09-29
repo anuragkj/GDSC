@@ -21,11 +21,9 @@ import "../css/home.css";
 import homeMainImage from "../assets/images/homepage_main.jpg";
 import DSCLogo from "../assets/images/DSCBPDCOnlyLogo.svg";
 import GDSCLogoText from "../assets/images/GDSCLogoText.png";
-import bulb from "../assets/images/Ideate.svg"; //rm
-import team from "../assets/images/Communicate2.svg"; //rm
-import jigsaw from "../assets/images/Collaborate.svg"; //rm
 import cc from "../assets/images/CC.svg";
 import ai from "../assets/images/AI & Data.svg";
+import app2 from "../assets/images/App & Web.png";
 import app from "../assets/images/App & Web.svg";
 import bio from "../assets/images/Bio.svg";
 import cloud from "../assets/images/Cloud & cyber.svg";
@@ -85,7 +83,7 @@ const featuresInfo = [
   {
     // color: "#FBA416",
     color: "#FFFFFF",
-    image: app,
+    image: app2,
     title: "Web & App Development",
     description:
       "Discover the art of web and app development with various workshops and hands-on activites. Increase your chances of success in hackathons and competitions by learning how to build user-friendly applications and prototypes.",
@@ -496,6 +494,18 @@ class Home extends React.Component {
                 />
               );
             })}
+          </div>
+          
+          <div>
+            <style
+              dangerouslySetInnerHTML={{
+                __html:
+                  "#button {background: linear-gradient(to right, #F4B400 0%, #F4B400 25%, #DB4437 25%, #DB4437 50%, #0F9D58 50%, #0F9D58 75%, #4285F4 75%, #4285F4 100%);background-size: 400% 100%; background-position: right bottom; transition: background-position 1s ease-out, color 1s ease-out; color: #FFFFFF; padding: 10px 20px; border: none; border-radius: 30px; font-size: 20px; cursor: pointer; text-decoration: none; display: inline-block; font-weight: 900;} #button:hover {background-position: left bottom;color: #000000;}"
+              }}
+            />
+            <a href="https://forms.gle/QnpzKUsdWmJ8Cuxf7" target="_blank" id="button">
+              Join Now!
+            </a>
           </div>
 
           <Spring>
