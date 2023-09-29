@@ -516,10 +516,10 @@ class Home extends React.Component {
             <style
               dangerouslySetInnerHTML={{
                 __html:
-                  ".button {background: linear-gradient(to right, #F4B400 0%, #F4B400 25%, #DB4437 25%, #DB4437 50%, #0F9D58 50%, #0F9D58 75%, #4285F4 75%, #4285F4 100%);\n      background-size: 400% 100%;\n      background-position: right bottom;\n      transition: background-position 1s ease-out, color 1s ease-out;\n      color: #fff;\n      padding: 10px 20px;\n      border: none;\n      border-radius: 5px;\n      font-size: 16px;\n      cursor: pointer;\n      text-decoration: none;\n      display: inline-block;\n    }\n\n    .button:hover {\n      background-position: left bottom;\n      color: #000;\n    }\n\n  "
+                  "#button {background: linear-gradient(to right, #F4B400 0%, #F4B400 25%, #DB4437 25%, #DB4437 50%, #0F9D58 50%, #0F9D58 75%, #4285F4 75%, #4285F4 100%);background-size: 400% 100%; background-position: right bottom; transition: background-position 1s ease-out, color 1s ease-out; color: #FFFFFF; padding: 10px 20px; border: none; border-radius: 10px; font-size: 16px; cursor: pointer; text-decoration: none; display: inline-block;} #button:hover {background-position: left bottom;color: #000000;}"
               }}
             />
-            <a href="https://forms.gle/QnpzKUsdWmJ8Cuxf7" target="_blank" className="button">
+            <a href="https://forms.gle/QnpzKUsdWmJ8Cuxf7" target="_blank" id="button">
               Join Now!
             </a>
           </div>
