@@ -49,6 +49,12 @@ import rev1 from "../assets/images/rev1.svg";
 import rev2 from "../assets/images/rev2.svg";
 import rev3 from "../assets/images/rev3.svg";
 import rev4 from "../assets/images/rev4.svg";
+import cyber from "../assets/images/cloudLogo.svg";
+import data from "../assets/images/aiLogo.svg";
+import ctf from "../assets/images/ctfLogo.svg";
+import bioinfo from "../assets/images/bioLogo.svg";
+import robo  from "../assets/images/roboLogo.svg";
+import web from "../assets/images/webLogo.svg";
 import jig from "../assets/images/jig.svg";
 import jigmobile from "../assets/images/jigmobile.svg";
 import dscjig from "../assets/images/dsc_jig.svg";
@@ -77,7 +83,7 @@ const featuresInfo = [
   {
     // color: "#4285F4",
     color: "#FFFFFF",
-    image: ai,
+    image: data,
     title: "AI & Data",
     description:
       "Dive into the world of AI and data science. Learn about the latest AI and ML technologies and how to apply them to solve real world problems. ",
@@ -85,7 +91,7 @@ const featuresInfo = [
   {
     // color: "#FBA416",
     color: "#FFFFFF",
-    image: app,
+    image: web,
     title: "Web & App Development",
     description:
       "Discover the art of web and app development with various workshops and hands-on activites. Increase your chances of success in hackathons and competitions by learning how to build user-friendly applications and prototypes.",
@@ -93,14 +99,14 @@ const featuresInfo = [
   {
     // color: "#594DD2",
     color: "#FFFFFF",
-    image: bio,
+    image: bioinfo,
     title: "Bioinformatics",
     description: "Merging biology and technology, we introduce the Bioinformatics network. Explore the power of computational tools and analysis of biological data.",
   },
   {
     // color: "#4285F4",
     color: "#FFFFFF",
-    image: cloud,
+    image: cyber,
     title: "Cloud Computing & Cybersecurity",
     description:
       "Secure the digital world with our Cloud & Cybersecurity network. Delve into the field of cloud computing, network security, and ethical hacking with engaging workshops and events",
@@ -108,7 +114,7 @@ const featuresInfo = [
   {
     // color: "#FBA416",
     color: "#FFFFFF",
-    image: robot,
+    image: robo,
     title: "IoT & Robotics",
     description:
       "Embark on a journey into the world of Robotics and IoT with GDSC. Learn about designing and automating robots and indulge into the world of IoT.",
@@ -116,7 +122,7 @@ const featuresInfo = [
   {
     // color: "#594DD2",
     color: "#FFFFFF",
-    image: cc,
+    image: ctf,
     title: "Competitive Coding",
     description: "Sharpen your coding skills and tech knowledge with our brainstorming competitions. From competitive coding to CTF, this network offers interesting events for everyone!",
   },
