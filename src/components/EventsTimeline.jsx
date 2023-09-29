@@ -149,6 +149,11 @@ class EventsTimeline extends React.Component {
   };
 
   render() {
+    const currentDate = new Date().toLocaleDateString("en-US", {
+      year: "numeric",
+      month: "long",
+      day: "numeric",
+    });
     return (
       <Fragment>
         <Header
@@ -247,7 +252,7 @@ class EventsTimeline extends React.Component {
                 <div className="timeline-now circle">
                   <div className="timeline-now-inner"></div>
                 </div>
-                <p className="today t3 darkGrey">TODAY</p>
+                <p className="today t3 darkGrey">{currentDate}</p>
               </div>
 
               <div className="timeline" style={{ width: `calc(80vw)` }}></div>
