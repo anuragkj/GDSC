@@ -245,21 +245,21 @@
 .feature-item:nth-child(even) {
   flex-direction: row-reverse;
 }
-.feature-item:nth-child(even) .feature-item-left {
+/* .feature-item:nth-child(even) .feature-item-left {
   padding-left: 0;
   padding-right: 10vw;
-}
+} */
 
 .feature-item-left {
   width: 47.5%;
   height: 100%;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
-  padding: 0 10vw;
+  padding: 2vw;
   border-radius: 5px;
-  padding-right: 0;
   overflow: hidden;
+  flex-direction: column;
 }
 
 
@@ -893,8 +893,6 @@ infograph:nth-child(34) {
   }
   .dsc-only-text {
     width: 60%;
-  }
-  .home-main-content-down-arrow {
   }
   .dsc-def-container {
     width: 100%;
