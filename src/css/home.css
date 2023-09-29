@@ -227,7 +227,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  width: 100%;
+  width: 100;
 }
 
 .feature-item {
@@ -262,10 +262,11 @@
   overflow: hidden;
 }
 
+
 .feature-0 {
   animation: float 5s ease-in-out infinite;
   margin-top: auto 0;
-  width: 75%;
+  width: 50%;
 }
 
 .feature-1 {
@@ -283,19 +284,19 @@
 .feature-3 {
   animation: float 5s ease-in-out infinite;
   margin-top: 20%;
-  width: 75%;
+  width: 65%;
 }
 
 .feature-4 {
   animation: float3 5s ease-in-out infinite;
   /* margin: 0; */
-  width: 75%;
+  width: 55%;
 }
 
 .feature-5 {
   animation: float 5s ease-in-out infinite;
   margin: auto 0;
-  width: 75%;
+  width: 50%;
 }
 
 
@@ -307,6 +308,7 @@
   justify-content: center;
   padding: 0 10vw;
 }
+
 
 .feature-item-image {
   width: 10vw;
