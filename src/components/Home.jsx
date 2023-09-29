@@ -214,26 +214,6 @@ const FAQInfo = [
   },
 ];
 
-const buttonStyle = {
-  background: 'linear-gradient(to right, #F4B400 0%, #F4B400 25%, #DB4437 25%, #DB4437 50%, #0F9D58 50%, #0F9D58 75%, #4285F4 75%, #4285F4 100%)',
-  backgroundSize: '400% 100%',
-  backgroundPosition: 'right bottom',
-  transition: 'background-position 1s ease-out, color 1s ease-out',
-  color: '#fff',
-  padding: '10px 20px',
-  border: 'none',
-  borderRadius: '5px',
-  fontSize: '16px',
-  cursor: 'pointer',
-  textDecoration: 'none',
-  display: 'inline-block',
-};
-
-const buttonHoverStyle = {
-  backgroundPosition: 'left bottom',
-  color: '#000',
-}
-
 const RenderOpportunity = ({ icon, description, index }) => {
   return (
     <div className="grid-opportunities-item" key={index}>
