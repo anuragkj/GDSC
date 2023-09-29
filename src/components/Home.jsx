@@ -516,7 +516,7 @@ class Home extends React.Component {
             <style
               dangerouslySetInnerHTML={{
                 __html:
-                  "#button {background: linear-gradient(to right, #F4B400 0%, #F4B400 25%, #DB4437 25%, #DB4437 50%, #0F9D58 50%, #0F9D58 75%, #4285F4 75%, #4285F4 100%);background-size: 400% 100%; background-position: right bottom; transition: background-position 1s ease-out, color 1s ease-out; color: #FFFFFF; padding: 10px 20px; border: none; border-radius: 10px; font-size: 16px; cursor: pointer; text-decoration: none; display: inline-block;} #button:hover {background-position: left bottom;color: #000000;}"
+                  "#button {background: linear-gradient(to right, #F4B400 0%, #F4B400 25%, #DB4437 25%, #DB4437 50%, #0F9D58 50%, #0F9D58 75%, #4285F4 75%, #4285F4 100%);background-size: 400% 100%; background-position: right bottom; transition: background-position 1s ease-out, color 1s ease-out; color: #FFFFFF; padding: 10px 20px; border: none; border-radius: 30px; font-size: 20px; cursor: pointer; text-decoration: none; display: inline-block; font-weight: 900;} #button:hover {background-position: left bottom;color: #000000;}"
               }}
             />
             <a href="https://forms.gle/QnpzKUsdWmJ8Cuxf7" target="_blank" id="button">
