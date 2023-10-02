@@ -13,7 +13,18 @@ export const events = {
         A scavenger hunt that takes you all around campus! Solve riddles, 
         scan the corresponding QR codes located all over the campus 
         but make sure you do it as fast as possible!
-        <br />
+        <br/>
+        <br/>
+        Here's what you need to know to make the most of it:
+        <ul>
+            <li>👥 Team Up: Grab 2-4 of your friends to form a team.</li>
+            <li>📧 Use BITS Email: Make sure to register using your BITS email ID.</li>
+            <li>🕒 Timing Matters: Registration starts at 9 AM. Remember, registering too early might not be in your favor.</li>
+            <li>🧩 Crack Riddles, Scan QR's: Decode website riddles to discover hidden spots and scan QR codes at the location.</li>
+            <li>🏁 Win by Speed: The faster you scan all QR codes, the closer you get to victory.</li>
+            <li>💰 Win Big: Win AED 40 for the overall winner and an exclusive AED 40 prize for the fastest 1st-year team.</li>
+            <li>🏆 Get Certified: Winners and team members receive GDSC BPDC’s Certificate.</li>
+        </ul>
       </p>
     ),
     image: "https://c.l3n.co/i/d4PVr7.jpeg",
@@ -61,6 +72,8 @@ export const events = {
       <p>
         A collaboration between LUG and GDSC which took participants 
         into the world of Git and how to accesss it using CLI (on a Linux kernel).
+        <br/>
+        <br/>
         Here's what you can expect:
         <ul>
           <li>🚀 Fundamentals of Linux</li>
@@ -89,7 +102,9 @@ export const events = {
         Streamlit is an open-source Python library.
         It's designed for creating web applications with minimal code.
         Ideal for data scientists, engineers, and anyone who wants to share data and insights in an interactive way.
-        Get ready for an effortless coding journey :
+        <br/>
+        <br/>
+        Here's what you can expect:
         <ul>
               <li>🧑‍💻Craft and host impressive web apps with your very own domain name.</li>
               <li>💪 Acquire practical skills through hands-on experience.</li>
