@@ -7,6 +7,7 @@ import instagramLogo from "../assets/images/icons/instagram.png";
 import twitterLogo from "../assets/images/icons/twitter.png";
 import linkedinLogo from "../assets/images/icons/linkedin.png";
 import youtubeLogo from "../assets/images/icons/youtube.png";
+import githubLogo from "../assets/images/icons/github.png";
 import mail from "../assets/images/icons/mail.png";
 import phone from "../assets/images/icons/phone.png";
 import location from "../assets/images/icons/pin.png";
@@ -31,6 +32,10 @@ const socialMediaInfo = [
     image: linkedinLogo,
     href: "https://www.linkedin.com/company/google-developer-student-club-bits-dubai/",
   },
+  {
+    image: githubLogo,
+    href: "https://github.com/GDSC-BPDC"
+  }
 ];
 
 class Footer extends React.Component {
