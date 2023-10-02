@@ -61,6 +61,14 @@ export const events = {
       <p>
         A collaboration between LUG and GDSC which took participants 
         into the world of Git and how to accesss it using CLI (on a Linux kernel).
+        Here's what you can expect:
+        <ul>
+          <li>🚀 Fundamentals of Linux</li>
+          <li>🌟 Mastering Git Version Control</li>
+          <li>🔥 Hands-on Practical Learning</li>
+          <li>💡 Engaging Q&A Session</li>
+          <li>📋 Certificate of Completion</li>
+        </ul>
         <br />
       </p>
     ),
@@ -81,6 +89,13 @@ export const events = {
         Streamlit is an open-source Python library.
         It's designed for creating web applications with minimal code.
         Ideal for data scientists, engineers, and anyone who wants to share data and insights in an interactive way.
+        Get ready for an effortless coding journey :
+        <ul>
+              <li>🧑‍💻Craft and host impressive web apps with your very own domain name.</li>
+              <li>💪 Acquire practical skills through hands-on experience.</li>
+              <li>🔥 Fan the flames of your passion for development.</li>
+              <li>🚀 Prepare for upcoming hackathons and competitions.</li>
+          </ul>
         <br />
       </p>
     ),
