@@ -158,7 +158,6 @@ export const events = {
         We believe that together, we can reclaim our servers and emerge victorious against this shadowy foe. 🏆
       </p>
     ),
-    image: "https://c.l3n.co/i/dY84MZ.png",
     registrationLink: null,
   },
 };
