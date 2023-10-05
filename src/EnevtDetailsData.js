@@ -5,7 +5,7 @@ export const events = {
     date: "5th September 2023",
     dateTime: "2023-09-05 09:00:00",
     shortDesc:
-      "This competition is going to be a treasure hunt challenge.",
+      "This competition is a treasure hunt challenge.",
     postEventDesc: "",
     url: "treasure-hunt-session",
     description: (
@@ -112,6 +112,50 @@ export const events = {
               <li>🚀 Prepare for upcoming hackathons and competitions.</li>
           </ul>
         <br />
+      </p>
+    ),
+    image: "https://c.l3n.co/i/dY84MZ.png",
+    registrationLink: null,
+  },
+  "Google-Dorking": {
+    name: "Google Dorking challenge",
+    date: "6th October 2023",
+    dateTime: "2023-10-06 17:00:00",
+    shortDesc:
+      "This competition is a CTF based on working with google dorks. ",
+    postEventDesc: "",
+    url: "Google-Dorking",
+    description: (
+      <p>        
+        It has come to our attention that the GDSC servers have been breached by an unidentified entity. 🚨
+        In our quest to confront this unknown entity, we invite you to join us for The Google Hacking Challenge🕵️‍♂️
+        
+        Join us:
+        <ul>
+        <li>📆 Date: 6th October, 2023</li>
+        <li>⏰ Time: Friday 5 pm - Saturday 5 pm</li>
+        </ul>
+        Event will be held completely online 🌐
+        It is a 24-hour battle to reclaim our servers. So you can start at your own timings 🕓
+        
+        This competition is open to everyone, and entry fees are as follows:
+        Non-Members:
+        AED 10/person🧍
+        AED 15/pair 👯
+        
+        GDSC Members play for free!!
+        
+        And now, the exciting part!
+        The prizes for this competition are as follows:
+        <ul>
+        <li>🥇First Rank: AED 100</li>
+        <li>🥈Second Rank: AED 50</li>
+        <li>🏅Best Performance Fresher: AED 50</li>
+        </ul>
+        
+        The person who finishes first, takes home the prize.
+        
+        We believe that together, we can reclaim our servers and emerge victorious against this shadowy foe. 🏆
       </p>
     ),
     image: "https://c.l3n.co/i/dY84MZ.png",
