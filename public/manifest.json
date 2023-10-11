@@ -5,17 +5,17 @@
   "lang" : "English",
   "icons" : [
       {
-        "src": "icons/logo36.png",
+        "src": "logo36.png",
         "sizes": "36x36",
         "type": "image/png"
       },
       {
-        "src": "icons/logo192.png",
+        "src": "logo192.png",
         "sizes": "192x192",
         "type": "image/png"
       },
       {
-        "src": "icons/logo512.png",
+        "src": "logo512.png",
         "sizes": "512x512",
         "type": "image/png"
       }
