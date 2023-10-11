@@ -917,7 +917,7 @@ infograph:nth-child(34) {
   }
   .blue-container {
     width: calc(100vw - 50px);
-    margin: 0 25px;
+    margin: 100px 25px;
     border-radius: 5px;
     padding: 10px;
     display: flex;
@@ -932,7 +932,7 @@ infograph:nth-child(34) {
     text-align: center !important;
   }
   .blue-container .secondary-button.top-right {
-    top: calc(100% - 50px);
+    top: calc(98% - 50px);
     left: 50%;
     transform: translateX(-50%);
   }
