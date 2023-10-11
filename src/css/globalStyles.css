@@ -403,14 +403,20 @@ a:visited {
 }
 
 @media only screen and (max-width: 600px) {
+    .h0{
+        font-size: 36px;
+    }
     .h2 {
-        font-size: 32px;
+        font-size: 28px;
     }
     .h3 {
         font-size: 30px;
     }
     .h4 {
         font-size: 26px
+    }
+    .t2{
+        font-size: 16px !important;
     }
 }
 
