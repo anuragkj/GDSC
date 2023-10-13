@@ -222,7 +222,7 @@ a:visited {
 
 .t2 {
     font-family: Google Sans Regular;
-    font-size: 16.5px;
+    font-size: 16px;
     letter-spacing: 0.8px;
     margin: 5px 0;
     padding: 0;
@@ -403,14 +403,20 @@ a:visited {
 }
 
 @media only screen and (max-width: 600px) {
+    .h0{
+        font-size: 36px;
+    }
     .h2 {
-        font-size: 32px;
+        font-size: 28px;
     }
     .h3 {
         font-size: 30px;
     }
     .h4 {
         font-size: 26px
+    }
+    .t2{
+        font-size: 16px !important;
     }
 }
 
