@@ -1,5 +1,5 @@
 {
-  "core": [
+"core": [
         {
       "fullName": "Mohammed Husam",
       "email": "f20210150@dubai.bits-pilani.ac.in",
@@ -45,7 +45,7 @@
       "linkedinProfile": "https://www.linkedin.com/in/aaryan-sinha-844535274/",
       "githubLink": "https://github.com/AaryanTheLaughingGas",
       "imageUrl": "https://b.l3n.co/i/dLLULb.jpeg",
-      "role": "Logistics Lead"
+      "role": "Events Lead"
     },
     {
       "fullName": "Sarah Arshad",
@@ -143,27 +143,20 @@
       "linkedinProfile": "https://www.linkedin.com/in/nishit-batwal-805185252/",
       "githubLink": "https://github.com/haberdasher30",
       "imageUrl": "https://c.l3n.co/i/dMLk1x.png",
-      "role": "Technology & Logistics Executive"
+      "role": "Technology & Events Executive"
     },
     {
       "fullName": "Drisya Manikkath",
       "email": "f20220254@dubai.bits-pilani.ac.in",
       "linkedinProfile": "https://www.linkedin.com/in/drisya-manikkath-0378a9194/",
       "imageUrl": "https://c.l3n.co/i/dMoloc.png",
-      "role": "Logistics Executive"
-    },
-    {
-      "fullName": "Sania Banka",
-      "email": "f20210907@dubai.bits-pilani.ac.in",
-      "linkedinProfile": "https://www.linkedin.com/in/sania-banka/",
-      "imageUrl": "https://b.l3n.co/i/dLoEki.png",
-      "role": "Logistics Executive"
+      "role": "Events Executive"
     },
     {
       "fullName": "Jasminder Singh Ahluwalia",
       "email": "f20210193@dubai.bits-pilani.ac.in",
       "imageUrl": "https://b.l3n.co/i/dLourx.jpeg",
-      "role": "Logistics Executive"
+      "role": "Events Executive"
     },
     {
       "fullName": "Mufti Muqaram",
