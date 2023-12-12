@@ -1,1 +1,1 @@
-Official website for GDSC BPDC
+Official website of GDSC BPDC
