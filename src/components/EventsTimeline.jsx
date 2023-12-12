@@ -9,7 +9,7 @@ import "../css/events.css";
 import { ChevronLeft, ChevronRight } from "react-feather";
 import { Link } from "react-router-dom";
 import eventhero from "../assets/images/events-hero.svg";
-import { events } from "../EnevtDetailsData";
+import { events } from "../EventDetailsData";
 
 const findCurrentPool = (loc) => {
   let i = 1;

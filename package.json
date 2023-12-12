@@ -2,7 +2,7 @@
   "name": "dsc_website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://sivaab.github.io/gdsc_bpdc_website",
+  "homepage": "https://gdscbpdc.github.io/",
   "dependencies": {
     "@material-ui/core": "^4.12.3",
     "@testing-library/jest-dom": "^4.2.4",

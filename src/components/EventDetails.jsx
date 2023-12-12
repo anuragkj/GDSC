@@ -10,7 +10,7 @@ import Footer from "./Footer";
 import FormDialog from "./Form1";
 
 import Header from "./Header";
-import { events } from "../EnevtDetailsData";
+import { events } from "../EventDetailsData";
 
 const EventDetails = () => {
   // const [currentIndex, setCurrentIndex] = useState(null);
