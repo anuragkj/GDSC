@@ -1,0 +1,23 @@
+{
+  "name" : "GDSC BPDC",
+  "short_name" : "GDSC",
+  "description" : "Official website for Google Devleoper Student Clubs, BITS Dubai",
+  "lang" : "English",
+  "icons" : [
+      {
+        "src": "logo36.png",
+        "sizes": "36x36",
+        "type": "image/png"
+      },
+      {
+        "src": "logo192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "logo512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+  ]
+}
