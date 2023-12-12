@@ -1,8 +1,8 @@
 {
-  "name": "GDSC_BPDC_Website",
+  "name": "GDSC",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://anuragkj.github.io/GDSC_BPDC_Website",
+  "homepage": "https://anuragkj.github.io/GDSC",
   "dependencies": {
     "@material-ui/core": "^4.12.3",
     "@testing-library/jest-dom": "^4.2.4",
